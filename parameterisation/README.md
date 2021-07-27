@@ -40,6 +40,17 @@ k<sub>ij</sub> scaling factor. This factor is calculated, along with the
 distance between the centre of masses of each molecule, by the
 sapt_kij_analysis.py script.
 
+For example:
+
+```
+$ sapt_kij_analysis.py sapt2.log
++-----------------------------------------------+
+|     Name      |     k_ij      |     r_COM     |
++-----------------------------------------------+
+|   sapt2.log   |    0.33194    |    5.34462    |
++-----------------------------------------------+
+```
+
 ## Atomic polarisabilities
 
 1. Using an optimised geometry for each molecule of interest, 6 calculations
@@ -111,3 +122,10 @@ file, you could install the `autochem` module, found
 `gauss_sadlej_polarisabilities.py` and `make_connected_in.py` scripts.
 The `gauss_sadlej_polarisabilities.py` script should be run from the folder that
 contains the xyz files.
+
+# Molecular dipole moments
+
+A molecular dipole moment can be found from a Gaussian calculation with the
+following command line: `#P MP2/cc-pVTZ int=(grid=ultrafine) pop=(chelpg,dipole)`
+
+The dipole will be used when either predicting k<sub>ij</sub> values in the next section.

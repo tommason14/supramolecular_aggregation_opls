@@ -1,0 +1,44 @@
+#!/bin/sh
+#SBATCH --tasks-per-node=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64GB
+#SBATCH --time=2:00:00
+#SBATCH --partition=comp,short
+#SBATCH --qos=partner
+#SBATCH --error=spec.err
+#SBATCH --output=spec.log
+
+export PROJECT="p2015120004"
+
+module load gaussian/g16a03
+time G16 << END
+
+
+%chk=spec.chk
+%mem=64gb
+%nproc=16
+
+#P MP2/cc-pVTZ int=(grid=ultrafine) pop=(chelpg,dipole) 
+
+ind
+
+0 1
+O        1.04623    0.98514   -0.06998
+C       -0.18537    0.99502   -0.00902
+C       -0.91163    0.99957    1.28469
+C       -2.28314    1.00028    1.27729
+C       -3.27219    1.00598    2.36143
+C       -4.51079    1.00238    1.77202
+N       -4.40111    0.98808    0.36959
+H       -5.17969    1.01630   -0.27532
+C       -3.05814    0.99543    0.00101
+C       -2.49347    0.99738   -1.24888
+C       -1.02201    1.00335   -1.34385
+O       -0.42284    1.01380   -2.42271
+H       -0.32163    1.00083    2.20761
+H       -3.06740    1.01018    3.43186
+H       -5.49778    1.00431    2.23862
+H       -3.07702    0.99629   -2.17543
+
+END

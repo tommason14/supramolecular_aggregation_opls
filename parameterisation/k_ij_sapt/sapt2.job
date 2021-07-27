@@ -1,0 +1,16 @@
+#!/bin/bash                 
+#SBATCH -J sapt2
+#SBATCH -e sapt2.%j.err      
+#SBATCH -N 1                
+#SBATCH -n 1                
+#SBATCH -c 12
+#SBATCH -t 12:00:00         
+#SBATCH --mem=48GB          
+#SBATCH --qos=partner       
+#SBATCH --partition=comp,short 
+
+export PROJECT="p2015120004"
+                            
+module load psi4/v1.1       
+psi4 sapt2.inp sapt2.log      
+find . -empty -delete       
