@@ -3,7 +3,7 @@
 Adding drude particles to a standard non-polarisable forcefield allows for a
 more accurate description of intermolecular interactions, but also results in 
 over-estimation of the non-Coulombic interactions. As a result, we should
-reduce the strength of the Lennard-Jones terms being interacting pairs of
+reduce the strength of the Lennard-Jones terms between interacting pairs of
 atoms. The amount by which the interactions should be reduced is described
 through a ratio of dispersion and induction, known as a k<sub>ij</sub> scaling factor, described [here](https://pubs.acs.org/doi/abs/10.1021/acs.jctc.9b00689) by Goloviznina and Padua.
 
