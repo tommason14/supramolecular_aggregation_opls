@@ -1,0 +1,13 @@
+
+======================================================================================
+                  Resource Usage on 2020-11-30 17:40:10:
+   Job Id:             13928884.gadi-pbs
+   Project:            k96
+   Exit Status:        0
+   Service Units:      0.02
+   NCPUs Requested:    1                      NCPUs Used: 1               
+                                           CPU Time Used: 00:00:28                                   
+   Memory Requested:   4.0GB                 Memory Used: 16.87MB         
+   Walltime requested: 01:00:00            Walltime Used: 00:00:29        
+   JobFS requested:    10.0GB                 JobFS used: 0B              
+======================================================================================
