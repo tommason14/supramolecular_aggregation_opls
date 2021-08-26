@@ -1,0 +1,22 @@
+# This file was created Thu Aug 26 15:25:52 2021
+# Created by:
+#                :-) GROMACS - gmx clustsize, 2021.2-MODIFIED (-:
+# 
+# Executable:   /usr/local/bin/../Cellar/gromacs/2021.2/bin/gmx
+# Data prefix:  /usr/local/bin/../Cellar/gromacs/2021.2
+# Working dir:  /Users/tommason/Documents/repos/supramolecular-aggregation-opls/aggregation/nvt/analysis/4-angs
+# Command line:
+#   gmx clustsize -f ../ind.xtc -s ../ind.tpr -mol -nc -mc -ac -hc -mcn -cut 0.4
+# gmx clustsize is part of G R O M A C S:
+#
+# GROwing Monsters And Cloning Shrimps
+#
+@    title "Cluster size distribution"
+@    xaxis  label "Cluster size"
+@    yaxis  label "()"
+@TYPE xy
+    0     0.000
+    1     9.110
+    2     2.820
+    3     1.750
+    4     0.000

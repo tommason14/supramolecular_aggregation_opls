@@ -1,0 +1,17 @@
+# This file was created Thu Aug 26 15:25:52 2021
+# Created by:
+#                :-) GROMACS - gmx clustsize, 2021.2-MODIFIED (-:
+# 
+# Executable:   /usr/local/bin/../Cellar/gromacs/2021.2/bin/gmx
+# Data prefix:  /usr/local/bin/../Cellar/gromacs/2021.2
+# Working dir:  /Users/tommason/Documents/repos/supramolecular-aggregation-opls/aggregation/nvt/analysis/5-angs
+# Command line:
+#   gmx clustsize -f ../ind.xtc -s ../ind.tpr -mol -nc -mc -ac -hc -mcn -cut 0.5
+# gmx clustsize is part of G R O M A C S:
+#
+# GROwing Monsters And Cloning Shrimps
+#
+@    title "Temperature of largest cluster"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "T (K)"
+@TYPE xy

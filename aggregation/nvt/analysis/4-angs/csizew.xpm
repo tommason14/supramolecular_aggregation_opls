@@ -1,0 +1,35 @@
+/* XPM */
+/* This file can be converted to EPS by the GROMACS program xpm2ps */
+/* title:   "Weighted cluster size distribution" */
+/* legend:  "Fraction" */
+/* x-label: "Time (ps)" */
+/* y-label: "Size" */
+/* type:    "Continuous" */
+static char *gromacs_xpm[] = {
+"100 3   20 1",
+"A  c #FFFFFF " /* "0" */,
+"B  c #FFFFBF " /* "0.75" */,
+"C  c #FFFF80 " /* "1.5" */,
+"D  c #FFFF40 " /* "2.25" */,
+"E  c #FFFF00 " /* "3" */,
+"F  c #EEEE11 " /* "3.67" */,
+"G  c #DDDD22 " /* "4.33" */,
+"H  c #CCCC33 " /* "5" */,
+"I  c #BBBB44 " /* "5.67" */,
+"J  c #AAAA55 " /* "6.33" */,
+"K  c #999966 " /* "7" */,
+"L  c #888877 " /* "7.67" */,
+"M  c #777788 " /* "8.33" */,
+"N  c #666699 " /* "9" */,
+"O  c #5555AA " /* "9.67" */,
+"P  c #4444BB " /* "10.3" */,
+"Q  c #3333CC " /* "11" */,
+"R  c #2222DD " /* "11.7" */,
+"S  c #1111EE " /* "12.3" */,
+"T  c #0000FF " /* "13" */,
+/* x-axis:  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 */
+/* x-axis:  80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 */
+/* y-axis:  1 2 3 */
+"IIIEIIIIIEIIIIIIIIIIIIIIEIEIIIIIIEEEEEIEEEEEIEIIIIEEEIIIIIIEIIIEIEEIIIIIIIIIIIIIIIIIIIIEIIIIEIIIIIEI",
+"GGGIGGGGGIGGGGGGGGIGGGGGIGIGGGGGGIIIIIGIGGIMGIGGGGIIMMGIIIIOMIMMIOIMMIIIMMMIMMGIMMIIMMMMIGGGIIGIIIMI",
+"OOOQOOOOOQOOOOOOOOMOOOOOQOQOOOOOOQQQQQOQTTQNOQOOOOQQNIOMMMMKIMINMKQIIMMMIIIMIIOMIIMMIIINMOOOQMOMMMNM"
